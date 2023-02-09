@@ -1,0 +1,130 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo{
+    width:50px;
+    height:50px;
+  
+}
+h2{
+    
+    margin-left:30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.options{
+    font-size:18px;
+    font-weight: 500;
+    margin-right:5px;
+}
+.login{
+    border-color:rgb(6, 94, 6);
+    border-style:solid;
+    border-width:2px;
+    border-radius:5px;
+}
+li a:hover{
+    transform: scale(1.2);
+}
+
+.home{
+    height:100vh;
+}
+.image{
+    height:300px;
+    width:300px;
+    background-size: cover;
+}
+h1{
+    font-size:70px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.content{
+    color:white;
+}
+.download-btn{
+    background-image: linear-gradient(to right, rgb(202, 72, 94), rgb(184, 39, 61));
+    color:white;
+    border:solid 0px;
+    border-radius:15px;
+    padding:10px;
+}
+.bg-container{
+    background-image:url("images/col-1.webp");
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.about-image{
+    background-size: cover;
+    height:400px;
+    width:400px;
+    background-color:transparent;
+    background-position: center;
+    border-radius:400px 150px 400px 150px;
+}
+.about-image:hover{
+    transform: scaleX(-1);
+    width:450px;
+}
+.about-description{
+    color:white;
+    font-family:"Roboto";
+    font-weight:500;
+    font-size:20px;
+    margin-left:50px;
+}
+.about-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.products-flex{
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.bg-product-container
+{
+    background-image:url("");
+    height:100vh;
+}
+.card{
+    background-color:white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:20px;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.product{
+    height:200px;
+    width:87%;
+}
+.reviews-flex{
+    height:100vh;
+}
+.contact-flex{
+    height:100vh;
+}
+.contact-section{
+    height:100vh;
+    padding:100px;
+    background-image: url("images/contactPage.webp");
+    color:white;
+}
+.follow{
+    margin-left:15px;
+    margin-bottom:15px;
+}
+
